@@ -101,7 +101,7 @@ function draw() {
 	textSize(18);
 	var point = myMap.latLngToPixel(myLoc.latitude, myLoc.longitude);
 	ellipse(point.x, point.y, 15);
-	text('you are here hooman', point.x -5, point.y - 20);
+	text('You are here hooman', point.x -5, point.y - 20);
 
 	//distanze
 	var distanceMilan = calcGeoDistance(myLoc.latitude, myLoc.longitude, milanLat, milanLng, "km");
