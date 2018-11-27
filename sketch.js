@@ -123,11 +123,11 @@ function draw() {
 
 	var pointParigi = myMap.latLngToPixel(parigiLat, parigiLng);
 	image(catParigi, pointParigi.x, pointParigi.y, 70, 70);
-	text( 'Le Café des Chats is ' + Math.round(distanceParigi) + 'km far' , pointParigi.x - 5, pointParigi.y - 20);
+	text( 'Le Cafe des Chats is ' + Math.round(distanceParigi) + 'km far' , pointParigi.x - 5, pointParigi.y - 20);
 
 	var pointRome = myMap.latLngToPixel(romaLat, romaLng);
 	image(catRoma, pointRome.x, pointRome.y, 70, 70);
-	text( 'Romeow Cafè is ' + Math.round(distanceRoma) + 'km far' , pointRome.x - 5, pointRome.y - 20);
+	text( 'Romeow Cafe is ' + Math.round(distanceRoma) + 'km far' , pointRome.x - 5, pointRome.y - 20);
 
 	var pointBrux = myMap.latLngToPixel(BruxLat, BruxLng);
 	image(catBrux, pointBrux.x, pointBrux.y, 70, 70);
@@ -139,7 +139,7 @@ function draw() {
 
 	var pointBud = myMap.latLngToPixel(budLat, budLng);
 	image(catBud, pointBud.x, pointBud.y, 70, 70);
-	text( 'Cat Cafè Budapest is ' + Math.round(distanceBud) + 'km far' , pointBud.x - 5, pointBud.y - 20);
+	text( 'Cat Cafe Budapest is ' + Math.round(distanceBud) + 'km far' , pointBud.x - 5, pointBud.y - 20);
 
 	var pointCop = myMap.latLngToPixel(copLat, copLng);
 	image(catCop, pointCop.x, pointCop.y, 70, 70);
