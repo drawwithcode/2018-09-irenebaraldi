@@ -92,9 +92,9 @@ function draw() {
 
 	//testo
 	fill('black');
-	textFont('Alegreya');
+	textFont('Black Han Sans');
   textSize(60);
-  text('Cat Cafè in Europe!', 50, 100);
+  text('Cat Cafe in Europe!', 50, 100);
 
 	//posizione
   fill('black');
@@ -119,7 +119,7 @@ function draw() {
 	textSize(18);
 	var pointMilan = myMap.latLngToPixel(milanLat, milanLng);
 	image(catMilan, pointMilan.x, pointMilan.y, 70, 70);
-	text( 'Crazy Cat Cafè is ' + Math.round(distanceMilan) + 'km far' , pointMilan.x - 5, pointMilan.y - 20);
+	text( 'Crazy Cat Cafe is ' + Math.round(distanceMilan) + 'km far' , pointMilan.x - 5, pointMilan.y - 20);
 
 	var pointParigi = myMap.latLngToPixel(parigiLat, parigiLng);
 	image(catParigi, pointParigi.x, pointParigi.y, 70, 70);
